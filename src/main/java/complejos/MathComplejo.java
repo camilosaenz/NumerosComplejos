@@ -1,4 +1,4 @@
-package numerosComplejos;
+package main.java.complejos;
 
 public class MathComplejo {
 	

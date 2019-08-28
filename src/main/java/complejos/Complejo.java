@@ -1,7 +1,8 @@
-package numerosComplejos;
+package main.java.complejos;
 
 import java.lang.Math;
-import java.util.ArrayList;;
+import java.util.ArrayList;
+import java.util.Objects;;
 
 public class Complejo {
 	
@@ -53,5 +54,22 @@ public class Complejo {
 		this.compleja = compleja;
 	}
 	
+	@Override
+	public boolean equals(Object o) {
+		if(this==o) {
+			return true;
+		}
+		if(o==null || getClass()!=o.getClass()) {
+			return false;
+		}
+		Complejo that = (Complejo) o;
+		return Double.compare(that.entera, entera)==0 && Double.compare(that.compleja, compleja)==0;
+		}
 	
+	@Override
+	public int hashCode() {
+		return Objects.hash(entera,compleja);
+	
+	}
+
 }

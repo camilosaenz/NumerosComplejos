@@ -1,9 +1,11 @@
-package numerosComplejos;
-
+package test.java;
 import static org.junit.Assert.assertEquals;
 
-//import org.junit.Assert.assertEquals;
+
 import org.junit.Test;
+
+import main.java.complejos.Complejo;
+import main.java.complejos.MathComplejo;
 
 
 public class TestComplejos {
