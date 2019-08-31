@@ -3,10 +3,9 @@ import static org.junit.Assert.assertEquals;
 
 
 import org.junit.Test;
-
 import main.java.complejos.Complejo;
 import main.java.complejos.MathComplejo;
-
+import main.java.matriz.*;
 
 public class TestComplejos {
 	
@@ -94,4 +93,5 @@ public class TestComplejos {
 		double b = a.fase(a);
 		assertEquals(-36.87,b,2.0);
 	}
+	
 }
