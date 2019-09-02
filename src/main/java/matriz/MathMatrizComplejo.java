@@ -57,4 +57,21 @@ public class MathMatrizComplejo {
 		}
 	}
 	
+	/**
+	 * 
+	 */
+	public static MatrizComplejo restaMatriz(MatrizComplejo matriz1, MatrizComplejo matriz2) {
+		if((matriz1.getColumna() == matriz2.getColumna()) && (matriz1.getFila() == matriz2.getFila())) {
+			MatrizComplejo restaMatriz = new MatrizComplejo(matriz1.getFila(), matriz1.getColumna());
+			for(int i = 0; i < matriz1.getFila(); i++) {
+				for (int j = 0; j < matriz1.getColumna(); j++) {
+					restaMatriz.getMatriz()[i][j] = MathComplejo.resta(matriz1.getMatriz()[i][j], matriz2.getMatriz()[i][j]);
+				}
+			}
+			return restaMatriz;
+		}else {
+			return null;
+		}
+	}
+	
 }

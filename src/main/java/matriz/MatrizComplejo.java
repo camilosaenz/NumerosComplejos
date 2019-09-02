@@ -7,14 +7,21 @@ import main.java.complejos.*;
 public class MatrizComplejo {
 	private int fila;
 	private int columna;
+	private int valor;
 	private Complejo[][] matriz;
+	private Complejo[] vector;
 	
 	
 	public MatrizComplejo(int fila, int columna) {
 		this.fila=fila;
 		this.columna=columna;
+		this.matriz = new Complejo[fila][columna];
 	}
-
+	
+	public MatrizComplejo(int valor) {
+		this.valor=valor;
+		this.vector = new Complejo[valor];
+	}
 
 	public int getFila() {
 		return fila;
@@ -45,6 +52,30 @@ public class MatrizComplejo {
 		this.matriz = matriz;
 	}
 	
+	
+	public int getValor() {
+		return valor;
+	}
+
+	public void setValor(int valor) {
+		this.valor = valor;
+	}
+
+	public Complejo[] getVector() {
+		return vector;
+	}
+
+	public void setVector(Complejo[] vector) {
+		this.vector = vector;
+	}
+	
+	public void addVector(Complejo complejo, int valor) {
+		this.vector[valor]=complejo;
+	}
+	
+	public void addMatriz(Complejo complejo, int fila, int columna) {
+		this.matriz[fila][columna]=complejo;
+	}
 	
 	@Override
 	public boolean equals(Object o) {
