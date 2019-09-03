@@ -59,7 +59,7 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
    El modulo de un numero Complejo es un real tal que sale de realizar la raiz cuadrada de la suma de los cuadrados tanto de la parte      entera como de la parte imaginaria.
 
 <p align="center">
-  <img width="300" height="50" src="http://recursostic.educacion.es/descartes/web/materiales_didacticos/Numeros_complejos_operaciones/modulo.gif">
+  <img width="300" height="100" src="http://recursostic.educacion.es/descartes/web/materiales_didacticos/Numeros_complejos_operaciones/modulo.gif">
 </p>
 
 # 6. Conjugado:
