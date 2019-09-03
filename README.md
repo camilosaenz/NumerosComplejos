@@ -27,6 +27,8 @@ La suma de los complejos, es un número complejo cuya parte real es la suma de l
   
    # (a+bi)+(c+di)=(a+c)+(b+d)i
    
+   
+   
 
 # 2. Producto:
   
@@ -34,6 +36,7 @@ La suma de los complejos, es un número complejo cuya parte real es la suma de l
             
             
    # (a+bi)⋅(c+di)=(ac−bd)+(ad+bc)i
+   ![Formula de Producto de Números Complejos](http://matematicatuya.com/Complejos/IMuS1b.png)
   
   
 # 3. Resta:
