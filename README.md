@@ -29,7 +29,7 @@ La librería tiene las siguientes operaciones entre números complejos:
 La suma de los complejos, es un número complejo cuya parte real es la suma de las partes reales y cuya parte imaginaria es la suma de las partes imaginarias:
 
 <p align="center">
-  <img width="700" height="200" src="https://www.problemasyecuaciones.com/complejos/img4/T1.png">
+  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img4/T1.png">
 </p>
 
 
@@ -38,7 +38,7 @@ La suma de los complejos, es un número complejo cuya parte real es la suma de l
 La resta de los complejos, es un número complejo cuya parte real es la resta de las partes reales y cuya parte imaginaria es la resta de las partes imaginarias:
    
 <p align="center">
-  <img width="700" height="200" src="https://www.problemasyecuaciones.com/complejos/img4/T2.png">
+  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img4/T2.png">
 </p>
    
 # 3. Producto:
