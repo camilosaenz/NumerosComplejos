@@ -24,10 +24,13 @@ El proyecto se dividira en diferentes entregas.
 
 La librería tiene las siguientes operaciones entre números complejos:
 
-
 # 1. Suma:
 
 La suma de los complejos, es un número complejo cuya parte real es la suma de las partes reales y cuya parte imaginaria es la suma de las partes imaginarias:
+
+<p align="center">
+  <img width="700" height="200" src="https://www.problemasyecuaciones.com/complejos/img4/T1.png">
+</p>
 
 
 # 2. Resta:
@@ -35,7 +38,7 @@ La suma de los complejos, es un número complejo cuya parte real es la suma de l
 La resta de los complejos, es un número complejo cuya parte real es la resta de las partes reales y cuya parte imaginaria es la resta de las partes imaginarias:
    
 <p align="center">
-  <img width="700" height="200" src="http://2.bp.blogspot.com/-v64tJ2cgWiI/T2AgA0MU0-I/AAAAAAAACac/FYyKH_uMRuo/s1600/sumarestacomplejos.png">
+  <img width="700" height="200" src="https://www.problemasyecuaciones.com/complejos/img4/T2.png">
 </p>
    
 # 3. Producto:
@@ -99,6 +102,8 @@ La forma polar de un complejo es cualquiera de las siguientes:
 La librería tiene las siguientes operaciones entre números complejos:
 
 # Adición de vectores complejos.
+
+
 # Inversa de vectores complejos.
 # Multiplicación escalar de vectores complejos.
 # Adición de matrices complejos.
