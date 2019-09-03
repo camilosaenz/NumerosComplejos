@@ -1,6 +1,6 @@
 # Librería de Numeros Complejos
 
-# CNYT - Ciencias Naturales y Tegnología
+# CNYT - Ciencias Naturales y Tecnología
 
 _Librería computación Cuántica: Números complejos._
 
