@@ -78,7 +78,7 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
   La fase de un numero complejo es el arcotangente de la division entre la parte imaginaria sobre la parte entera, siempre y cuando la     parte entera sea diferente de cero.
   
  
-# ¿Instalación? :clipboard:
+# ¿Instalación? :file_folder:
 
 ```
 Para instalar la librería en sus Computadores siga estos pasos:
@@ -86,11 +86,10 @@ Para instalar la librería en sus Computadores siga estos pasos:
 
 > Clonar en sus computadores con el link del repositorio, utilizando git clone (link repositorio).
 
-
-# ¿Uso?
+# ¿Uso? :hand:
 
 > Cuando este clonado el repositorio abrir en un compilador de Java (Eclipse, Netbeans), y ya tendra uso de este.
 
-# ¿Probar?
+# ¿Probar? :wrench:
 
 > Ya abierto en algun compilador hacer uso de los metodos creados para pruebas, luego ejecutar.
