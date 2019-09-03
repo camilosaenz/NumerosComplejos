@@ -62,14 +62,15 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
    El modulo de un numero Complejo es un real tal que sale de realizar la raiz cuadrada de la suma de los cuadrados tanto de la parte      entera como de la parte imaginaria.
 
 <p align="center">
-  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img3/T0.png">
+  <img width="200" height="50" src="https://www.problemasyecuaciones.com/complejos/img3/T0.png">
 </p>
 
 # 6. Conjugado:
 
-  El conjugado de un numero Complejo sale es otro numero complejo pero con la parte imaginaria de un signo diferente a el primer numero   complejo.
+El conjugado de un numero Complejo sale es otro numero complejo pero con la parte imaginaria de un signo diferente a el primer numero complejo.
+
 <p align="center">
-  <img width="300" height="50" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a31d6b1e6bf2cc9ae9fbb2eb3b8f468f082574b2">
+  <img width="200" height="50" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a31d6b1e6bf2cc9ae9fbb2eb3b8f468f082574b2">
 </p>
   
 # 7. Conversión entre representaciones polar y cartesiano
@@ -77,13 +78,13 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
 La forma trigonométrica de un complejo z con módulo r y ángulo α es:
 
 <p align="center">
-  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img2/T3.png">
+  <img width="200" height="100" src="https://www.problemasyecuaciones.com/complejos/img2/T3.png">
 </p>
 
 La forma polar de un complejo es cualquiera de las siguientes:
 
 <p align="center">
-  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img2/T4.png">
+  <img width="200" height="100" src="https://www.problemasyecuaciones.com/complejos/img2/T4.png">
 </p>
 
 # 8. Retornar la fase de un número complejo.
@@ -91,7 +92,7 @@ La forma polar de un complejo es cualquiera de las siguientes:
   La fase de un numero complejo es el arcotangente de la division entre la parte imaginaria sobre la parte entera, siempre y cuando la     parte entera sea diferente de cero.
   
  <p align="center">
-  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img3/T1.png"
+  <img width="200" height="100" src="https://www.problemasyecuaciones.com/complejos/img3/T1.png"
 </p>
   
 # Segunda Entrega
