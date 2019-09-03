@@ -24,27 +24,25 @@ La librería tiene las siguientes operaciones entre números complejos:
 
 La suma de los complejos, es un número complejo cuya parte real es la suma de las partes reales y cuya parte imaginaria es la suma de las partes imaginarias:
 
-  
    # (a+bi)+(c+di)=(a+c)+(b+d)i
-   
-   
-   
 
-# 2. Producto:
-  
-  El producto de numeros complejos da como resultado otro numeros complejo y se encarga de distribuir la primer parte del primer numero     complejo sobre el otro numero complejo, como se puede ver en la suguiente ecuacion.
-            
-            
-   # (a+bi)⋅(c+di)=(ac−bd)+(ad+bc)i
-   ![Formula de Producto de Números Complejos](http://matematicatuya.com/Complejos/IMuS1b.png)
-  
-  
-# 3. Resta:
+# 2. Resta:
 
   La resta de los complejos, es un número complejo cuya parte real es la resta de las partes reales y cuya parte imaginaria es la resta     de las partes imaginarias:
   
   
    # (a+bi)-(c+di)=(a-c)+(b-d)i
+   
+   ![Formula de Suma y Resta de Números Complejos](http://2.bp.blogspot.com/-v64tJ2cgWiI/T2AgA0MU0-I/AAAAAAAACac/FYyKH_uMRuo/s1600/sumarestacomplejos.png)
+
+# 3. Producto:
+  
+  El producto de numeros complejos da como resultado otro numeros complejo y se encarga de distribuir la primer parte del primer numero     complejo sobre el otro numero complejo, como se puede ver en la suguiente ecuacion.
+            
+   ![Formula de Producto de Números Complejos](http://matematicatuya.com/Complejos/IMuS1b.png)
+  
+  
+
 
 
 # 4. División:
