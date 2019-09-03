@@ -11,7 +11,7 @@ Para esto primero definimos que es un Número Complejo.
 > **Definición según Wikipedia** Los números complejos son una extensión de los números reales y forman un cuerpo algebraicamente cerrado. El conjunto de los números complejos se designa con la notación **C**.  Los números complejos incluyen todas las raíces de los polinomios, a diferencia de los reales. Todo número complejo puede representarse como la suma de un número real y un número imaginario (que es un múltiplo real de la unidad imaginaria, que se indica con la letra i), o en forma polar.
 
 <p align="center">
-  <img width="700" height="200" src="https://masmates.files.wordpress.com/2014/01/numeros_complejos.png?w=630&h=224">
+  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img1/T4.png">
 </p>
 
 ```
@@ -78,13 +78,13 @@ El conjugado de un numero Complejo sale es otro numero complejo pero con la part
 La forma trigonométrica de un complejo z con módulo r y ángulo α es:
 
 <p align="center">
-  <img width="300" height="120" src="https://www.problemasyecuaciones.com/complejos/img2/T3.png">
+  <img width="300" height="150" src="https://www.problemasyecuaciones.com/complejos/img2/T3.png">
 </p>
 
 La forma polar de un complejo es cualquiera de las siguientes:
 
 <p align="center">
-  <img width="200" height="80" src="https://www.problemasyecuaciones.com/complejos/img2/T4.png">
+  <img width="200" height="50" src="https://www.problemasyecuaciones.com/complejos/img2/T4.png">
 </p>
 
 # 8. Retornar la fase de un número complejo.
