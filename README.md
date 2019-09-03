@@ -76,3 +76,21 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
 # 8. Retornar la fase de un número complejo.
 
   La fase de un numero complejo es el arcotangente de la division entre la parte imaginaria sobre la parte entera, siempre y cuando la     parte entera sea diferente de cero.
+  
+ 
+# ¿Instalación? :clipboard:
+
+```
+Para instalar la librería en sus Computadores siga estos pasos:
+```
+
+> Clonar en sus computadores con el link del repositorio, utilizando git clone (link repositorio).
+
+
+# ¿Uso?
+
+> Cuando este clonado el repositorio abrir en un compilador de Java (Eclipse, Netbeans), y ya tendra uso de este.
+
+# ¿Probar?
+
+> Ya abierto en algun compilador hacer uso de los metodos creados para pruebas, luego ejecutar.
