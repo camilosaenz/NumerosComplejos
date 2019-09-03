@@ -39,14 +39,17 @@ La librería tiene las siguientes operaciones entre números complejos:
 # 1. Suma:
 
 La suma de los complejos, es un número complejo cuya parte real es la suma de las partes reales y cuya parte imaginaria es la suma de las partes imaginarias:
+En la libreria yo sumo tanto las partes enteras como las partes imaginarias aparte y creo el número complejo a partir de los resultados obtenidos.
 
 # 2. Resta:
 
 La resta de los complejos, es un número complejo cuya parte real es la resta de las partes reales y cuya parte imaginaria es la resta de las partes imaginarias:
+En la libreria yo resto tanto las partes enteras como las partes imaginarias aparte y creo el número complejo a partir de los resultados obtenidos.
    
 # 3. Producto:
   
   El producto de numeros complejos da como resultado otro numeros complejo y se encarga de distribuir la primer parte del primer numero   complejo sobre el otro numero complejo, como se puede ver en la suguiente ecuacion.
+  Para el producto de numeros complejos en la libreria sigo la ecuacion para hallar esta y con el resultado creo el numero complejo
             
 # 4. División:
 
@@ -78,18 +81,57 @@ La librería tiene las siguientes operaciones entre números complejos:
 
 # Adición de vectores complejos.
 
+Se suman dos vectores de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
 
 # Inversa de vectores complejos.
+
+Se restan dos vectores de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+
 # Multiplicación escalar de vectores complejos.
+
+Se multiplican dos vectores de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+
 # Adición de matrices complejos.
+
+Se suman dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+
 # Inversa de matrices complejos.
+
+Se restan dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+
 # Multiplicación escalar de matrices complejas.
+
+Se multiplican dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+
 # Matriz transpuesta
+
+Para esta se comparan las pocisiones de los indices de la matriz original con los de la transpuesta 
+
 # Matriz conjugada
+
+Se cambia el signo de la parte imaginaria de cada indice imaginario de la matriz se utiliza el conjugado de complejos
+
 # Matriz adjunta
-# Función para calcular la "acción" de una matriz sobre un vector.
+
+Para esta utilizo el conjugado de la matriz y la transpuesta de este para hhalar la adjunta de una matriz
+
 # Norma de matrices
+
+Se halla la norma de cada elemento de la matriz de los numeros complejos
+
 # Distancia entrematrices
+
+Se encuentra la di
+
 # Revisar si es unitaria
+
+
+
 # Revisar si es Hermitian
+
+
+
 # Producto tensor.
+
+
+
