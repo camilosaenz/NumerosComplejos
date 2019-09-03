@@ -40,7 +40,7 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
   El producto de numeros complejos da como resultado otro numeros complejo y se encarga de distribuir la primer parte del primer numero   complejo sobre el otro numero complejo, como se puede ver en la suguiente ecuacion.
             
 <p align="center">
-  <img width="500" height="300" src="http://matematicatuya.com/Complejos/IMuS1b.png">
+  <img width="700" height="200" src="http://matematicatuya.com/Complejos/IMuS1b.png">
 </p>
    
 
