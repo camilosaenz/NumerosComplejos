@@ -11,7 +11,7 @@ Para esto primero definimos que es un Número Complejo.
 > **Definición según Wikipedia** Los números complejos son una extensión de los números reales y forman un cuerpo algebraicamente cerrado. El conjunto de los números complejos se designa con la notación **C**.  Los números complejos incluyen todas las raíces de los polinomios, a diferencia de los reales. Todo número complejo puede representarse como la suma de un número real y un número imaginario (que es un múltiplo real de la unidad imaginaria, que se indica con la letra i), o en forma polar.
 
 <p align="center">
-  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img1/T4.png">
+  <img width="100" height="80" src="https://www.problemasyecuaciones.com/complejos/img1/T4.png">
 </p>
 
 ```
