@@ -65,13 +65,24 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
 # 6. Conjugado:
 
   El conjugado de un numero Complejo sale es otro numero complejo pero con la parte imaginaria de un signo diferente a el primer numero   complejo.
-  <p align="center">
+<p align="center">
   <img width="300" height="50" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a31d6b1e6bf2cc9ae9fbb2eb3b8f468f082574b2">
 </p>
   
   
 # 7. Conversión entre representaciones polar y cartesiano
 
+La forma trigonométrica de un complejo z con módulo r y ángulo α es:
+
+<p align="center">
+  <img width="300" height="50" src="https://www.matesfacil.com/BAC/complejos/IMG2/T1.png">
+</p>
+
+La forma polar de un complejo es cualquiera de las siguientes:
+
+<p align="center">
+  <img width="300" height="50" src="https://www.matesfacil.com/BAC/complejos/IMG2/T2.png">
+</p>
 
 # 8. Retornar la fase de un número complejo.
 
