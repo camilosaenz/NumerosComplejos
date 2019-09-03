@@ -7,8 +7,7 @@ El objetivo de este proyecto es realizar una libreria de Números Complejos.
 
 Para esto primero definimos que es un Número Complejo.
 
->
-Los números complejos son una extensión de los números reales y forman un cuerpo algebraicamente cerrado.1 El conjunto de los números complejos se designa con la notación **C**.  Los números complejos incluyen todas las raíces de los polinomios, a diferencia de los reales. Todo número complejo puede representarse como la suma de un número real y un número imaginario (que es un múltiplo real de la unidad imaginaria, que se indica con la letra i), o en forma polar.
+> **Definición segun Wikipedia** Los números complejos son una extensión de los números reales y forman un cuerpo algebraicamente cerrado.1 El conjunto de los números complejos se designa con la notación **C**.  Los números complejos incluyen todas las raíces de los polinomios, a diferencia de los reales. Todo número complejo puede representarse como la suma de un número real y un número imaginario (que es un múltiplo real de la unidad imaginaria, que se indica con la letra i), o en forma polar.
 
 
 # Primer Entrega
