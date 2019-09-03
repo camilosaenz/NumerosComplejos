@@ -92,7 +92,27 @@ La forma polar de un complejo es cualquiera de las siguientes:
   <img width="300" height="200" src="https://www.ditutor.com/numeros_complejos/images/17_1.gif">
 </p>
   
-  
+# Segunda Entrega
+
+> **Segunda Entrega** En esta entrega se tendran oparaciones de numeros complejos en vectores y matrices.
+
+La librería tiene las siguientes operaciones entre números complejos:
+
+# Adición de vectores complejos.
+# Inversa de vectores complejos.
+# Multiplicación escalar de vectores complejos.
+# Adición de matrices complejos.
+# Inversa de matrices complejos.
+# Multiplicación escalar de matrices complejas.
+# Matriz transpuesta
+# Matriz conjugada
+# Matriz adjunta
+# Función para calcular la "acción" de una matriz sobre un vector.
+# Norma de matrices
+# Distancia entrematrices
+# Revisar si es unitaria
+# Revisar si es Hermitian
+# Producto tensor.
  
 # ¿Instalación? :file_folder:
 
