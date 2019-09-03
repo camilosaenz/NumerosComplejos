@@ -46,7 +46,7 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
   El producto de numeros complejos da como resultado otro numeros complejo y se encarga de distribuir la primer parte del primer numero   complejo sobre el otro numero complejo, como se puede ver en la suguiente ecuacion.
             
 <p align="center">
-  <img width="700" height="200" src="https://www.problemasyecuaciones.com/complejos/img4/T4.png">
+  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img4/T4.png">
 </p>
 
 # 4. División:
@@ -62,7 +62,7 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
    El modulo de un numero Complejo es un real tal que sale de realizar la raiz cuadrada de la suma de los cuadrados tanto de la parte      entera como de la parte imaginaria.
 
 <p align="center">
-  <img width="300" height="100" src="http://recursostic.educacion.es/descartes/web/materiales_didacticos/Numeros_complejos_operaciones/modulo.gif">
+  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img3/T0.png">
 </p>
 
 # 6. Conjugado:
@@ -72,19 +72,18 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
   <img width="300" height="50" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a31d6b1e6bf2cc9ae9fbb2eb3b8f468f082574b2">
 </p>
   
-  
 # 7. Conversión entre representaciones polar y cartesiano
 
 La forma trigonométrica de un complejo z con módulo r y ángulo α es:
 
 <p align="center">
-  <img width="300" height="50" src="https://www.matesfacil.com/BAC/complejos/IMG2/T1.png">
+  <img width="300" height="50" src="https://www.problemasyecuaciones.com/complejos/img2/T3.png">
 </p>
 
 La forma polar de un complejo es cualquiera de las siguientes:
 
 <p align="center">
-  <img width="300" height="80" src="https://www.matesfacil.com/BAC/complejos/IMG2/T2.png">
+  <img width="300" height="80" src="https://www.problemasyecuaciones.com/complejos/img2/T4.png">
 </p>
 
 # 8. Retornar la fase de un número complejo.
@@ -92,7 +91,7 @@ La forma polar de un complejo es cualquiera de las siguientes:
   La fase de un numero complejo es el arcotangente de la division entre la parte imaginaria sobre la parte entera, siempre y cuando la     parte entera sea diferente de cero.
   
  <p align="center">
-  <img width="300" height="200" src="https://www.ditutor.com/numeros_complejos/images/17_1.gif">
+  <"https://www.problemasyecuaciones.com/complejos/img3/T1.png">
 </p>
   
 # Segunda Entrega
