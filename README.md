@@ -10,7 +10,9 @@ Para esto primero definimos que es un Número Complejo.
 
 > **Definición según Wikipedia** Los números complejos son una extensión de los números reales y forman un cuerpo algebraicamente cerrado. El conjunto de los números complejos se designa con la notación **C**.  Los números complejos incluyen todas las raíces de los polinomios, a diferencia de los reales. Todo número complejo puede representarse como la suma de un número real y un número imaginario (que es un múltiplo real de la unidad imaginaria, que se indica con la letra i), o en forma polar.
 
-![Números Complejos](https://masmates.files.wordpress.com/2014/01/numeros_complejos.png?w=630&h=224)
+<p align="center">
+  <img width="700" height="200" src="https://masmates.files.wordpress.com/2014/01/numeros_complejos.png?w=630&h=224">
+</p>
 
 ```
 El proyecto se dividira en diferentes entregas.
@@ -32,8 +34,9 @@ La suma de los complejos, es un número complejo cuya parte real es la suma de l
 
 La resta de los complejos, es un número complejo cuya parte real es la resta de las partes reales y cuya parte imaginaria es la resta de las partes imaginarias:
    
-   ![Formula de Suma y Resta de Números Complejos](http://2.bp.blogspot.com/-v64tJ2cgWiI/T2AgA0MU0-I/AAAAAAAACac/FYyKH_uMRuo/s1600/sumarestacomplejos.png)
-   
+<p align="center">
+  <img width="700" height="200" src="http://2.bp.blogspot.com/-v64tJ2cgWiI/T2AgA0MU0-I/AAAAAAAACac/FYyKH_uMRuo/s1600/sumarestacomplejos.png">
+</p>
    
 # 3. Producto:
   
@@ -42,7 +45,6 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
 <p align="center">
   <img width="700" height="200" src="http://matematicatuya.com/Complejos/IMuS1b.png">
 </p>
-   
 
 # 4. División:
 
