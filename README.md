@@ -81,7 +81,7 @@ La forma trigonométrica de un complejo z con módulo r y ángulo α es:
 La forma polar de un complejo es cualquiera de las siguientes:
 
 <p align="center">
-  <img width="300" height="50" src="https://www.matesfacil.com/BAC/complejos/IMG2/T2.png">
+  <img width="300" height="200" src="https://www.matesfacil.com/BAC/complejos/IMG2/T2.png">
 </p>
 
 # 8. Retornar la fase de un número complejo.
