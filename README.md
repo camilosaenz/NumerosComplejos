@@ -81,12 +81,17 @@ La forma trigonométrica de un complejo z con módulo r y ángulo α es:
 La forma polar de un complejo es cualquiera de las siguientes:
 
 <p align="center">
-  <img width="300" height="200" src="https://www.matesfacil.com/BAC/complejos/IMG2/T2.png">
+  <img width="300" height="100" src="https://www.matesfacil.com/BAC/complejos/IMG2/T2.png">
 </p>
 
 # 8. Retornar la fase de un número complejo.
 
   La fase de un numero complejo es el arcotangente de la division entre la parte imaginaria sobre la parte entera, siempre y cuando la     parte entera sea diferente de cero.
+  
+  <p align="center">
+  <img width="300" height="100" src="https://www.ditutor.com/numeros_complejos/images/17_1.gif">
+</p>
+  
   
  
 # ¿Instalación? :file_folder:
