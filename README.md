@@ -78,13 +78,13 @@ El conjugado de un numero Complejo sale es otro numero complejo pero con la part
 La forma trigonométrica de un complejo z con módulo r y ángulo α es:
 
 <p align="center">
-  <img width="200" height="100" src="https://www.problemasyecuaciones.com/complejos/img2/T3.png">
+  <img width="300" height="120" src="https://www.problemasyecuaciones.com/complejos/img2/T3.png">
 </p>
 
 La forma polar de un complejo es cualquiera de las siguientes:
 
 <p align="center">
-  <img width="200" height="100" src="https://www.problemasyecuaciones.com/complejos/img2/T4.png">
+  <img width="200" height="80" src="https://www.problemasyecuaciones.com/complejos/img2/T4.png">
 </p>
 
 # 8. Retornar la fase de un número complejo.
@@ -92,7 +92,7 @@ La forma polar de un complejo es cualquiera de las siguientes:
   La fase de un numero complejo es el arcotangente de la division entre la parte imaginaria sobre la parte entera, siempre y cuando la     parte entera sea diferente de cero.
   
  <p align="center">
-  <img width="200" height="100" src="https://www.problemasyecuaciones.com/complejos/img3/T1.png"
+  <img width="200" height="80" src="https://www.problemasyecuaciones.com/complejos/img3/T1.png"
 </p>
   
 # Segunda Entrega
