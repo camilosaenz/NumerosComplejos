@@ -8,11 +8,13 @@ public class Complejo {
 	
 	public double entera;
 	public double compleja;
+	public int valor;
 	
 	public Complejo (double entera, double compleja) {
 		this.compleja = compleja;
 		this.entera = entera;
 	}
+	
 	
 	//Modulo de numeros Complejos
 	public double modulo(Complejo a) {
