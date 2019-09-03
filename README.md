@@ -51,7 +51,7 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
   La division de los numeros complejos, es un numero complejo tal que al dividir el primero en el segundo esto siempre y cuando el         modulo del segundo numero complejo sea diferente de cero.
   
 <p align="center">
-  <img width="500" height="200" src="https://www.ditutor.com/numeros_complejos/images/12.gif">
+  <img width="400" height="100" src="https://www.ditutor.com/numeros_complejos/images/12.gif">
 </p>
 
 # 5. Módulo:
