@@ -50,12 +50,15 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
 
   La division de los numeros complejos, es un numero complejo tal que al dividir el primero en el segundo esto siempre y cuando el         modulo del segundo numero complejo sea diferente de cero.
   
-  ![Formula de la Divición de Números Complejos](https://www.ditutor.com/numeros_complejos/images/12.gif)
+<p align="center">
+  <img width="700" height="200" src="https://www.ditutor.com/numeros_complejos/images/12.gif">
+</p>
 
-   
 # 5. Módulo:
 
    El modulo de un numero Complejo es un real tal que sale de realizar la raiz cuadrada de la suma de los cuadrados tanto de la parte      entera como de la parte imaginaria.
+   
+
     
 # 6. Conjugado:
 
