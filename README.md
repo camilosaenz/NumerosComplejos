@@ -57,12 +57,18 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
 # 5. Módulo:
 
    El modulo de un numero Complejo es un real tal que sale de realizar la raiz cuadrada de la suma de los cuadrados tanto de la parte      entera como de la parte imaginaria.
-   
 
-    
+<p align="center">
+  <img width="400" height="100" src="http://recursostic.educacion.es/descartes/web/materiales_didacticos/Numeros_complejos_operaciones/modulo.gif">
+</p>
+
 # 6. Conjugado:
 
   El conjugado de un numero Complejo sale es otro numero complejo pero con la parte imaginaria de un signo diferente a el primer numero   complejo.
+  <p align="center">
+  <img width="400" height="100" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a31d6b1e6bf2cc9ae9fbb2eb3b8f468f082574b2">
+</p>
+  
   
 # 7. Conversión entre representaciones polar y cartesiano
 
