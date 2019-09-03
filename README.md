@@ -54,7 +54,7 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
   La division de los numeros complejos, es un numero complejo tal que al dividir el primero en el segundo esto siempre y cuando el         modulo del segundo numero complejo sea diferente de cero.
   
 <p align="center">
-  <img width="400" height="100" src="https://www.ditutor.com/numeros_complejos/images/12.gif">
+  <img width="500" height="100" src="https://www.ditutor.com/numeros_complejos/images/12.gif">
 </p>
 
 # 5. Módulo:
@@ -84,14 +84,14 @@ La forma trigonométrica de un complejo z con módulo r y ángulo α es:
 La forma polar de un complejo es cualquiera de las siguientes:
 
 <p align="center">
-  <img width="300" height="100" src="https://www.matesfacil.com/BAC/complejos/IMG2/T2.png">
+  <img width="300" height="80" src="https://www.matesfacil.com/BAC/complejos/IMG2/T2.png">
 </p>
 
 # 8. Retornar la fase de un número complejo.
 
   La fase de un numero complejo es el arcotangente de la division entre la parte imaginaria sobre la parte entera, siempre y cuando la     parte entera sea diferente de cero.
   
-  <p align="center">
+ <p align="center">
   <img width="300" height="200" src="https://www.ditutor.com/numeros_complejos/images/17_1.gif">
 </p>
   
