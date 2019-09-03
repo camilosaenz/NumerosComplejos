@@ -46,7 +46,7 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
   El producto de numeros complejos da como resultado otro numeros complejo y se encarga de distribuir la primer parte del primer numero   complejo sobre el otro numero complejo, como se puede ver en la suguiente ecuacion.
             
 <p align="center">
-  <img width="700" height="200" src="http://matematicatuya.com/Complejos/IMuS1b.png">
+  <img width="700" height="200" src="https://www.problemasyecuaciones.com/complejos/img4/T4.png">
 </p>
 
 # 4. División:
@@ -54,7 +54,7 @@ La resta de los complejos, es un número complejo cuya parte real es la resta de
   La division de los numeros complejos, es un numero complejo tal que al dividir el primero en el segundo esto siempre y cuando el         modulo del segundo numero complejo sea diferente de cero.
   
 <p align="center">
-  <img width="500" height="100" src="https://www.ditutor.com/numeros_complejos/images/12.gif">
+  <img width="300" height="100" src="https://www.problemasyecuaciones.com/complejos/img4/T7.png">
 </p>
 
 # 5. Módulo:
