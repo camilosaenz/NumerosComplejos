@@ -104,11 +104,10 @@ public class MathMatrizComplejo {
 				Complejo complejo = new Complejo(0,0);
 				complejo = MathComplejo.suma(complejo, MathComplejo.producto(matriz1.getMatriz()[fila][columna], matriz2.getMatriz()[columna][fila]));
 				multi.getMatriz()[fila][columna] = complejo;
-			}
+				}
 			}
 		}
 		return multi;
-	
 	}
 	
 	/**
@@ -222,16 +221,36 @@ public class MathMatrizComplejo {
 	 * 
 	 */
 	public static MatrizComplejo productoTensor(MatrizComplejo matriz1, MatrizComplejo matriz2) {
-		MatrizComplejo prodTensor= new MatrizComplejo(matriz1.getFila()*matriz2.getFila(), matriz1.getColumna()*matriz2.getColumna());
+		MatrizComplejo tensor= new MatrizComplejo(matriz1.getFila()*matriz2.getFila(), matriz1.getColumna()*matriz2.getColumna());
 		for(int i = 0; i < matriz1.getFila(); i++) {
 			for(int j = 0; j < matriz1.getColumna(); j++) {
 				for(int k = 0; k < matriz2.getFila(); k++) {
 					for(int l = 0; l < matriz2.getColumna(); l++) {
-						prodTensor.getMatriz()[i*matriz2.getFila()+k][j*matriz2.getFila()+l] = MathComplejo.producto(matriz1.getMatriz()[i][j],matriz2.getMatriz()[k][l]);
+						tensor.getMatriz()[i*matriz2.getFila()+k][j*matriz2.getFila()+l] = MathComplejo.producto(matriz1.getMatriz()[i][j],matriz2.getMatriz()[k][l]);
 					}
 				}
 			}
 		}
-		return prodTensor;
+		return tensor;
 	}
+	
+	/**
+	 * 
+	 */
+	public static MatrizComplejo accionMatriz(MatrizComplejo matriz, MatrizComplejo vector) {
+		MatrizComplejo accion = new MatrizComplejo(matriz.getColumna(),vector.getFila());
+		if(matriz.getFila() == vector.getColumna()) {
+			for(int i = 0; i < matriz.getColumna(); i++) {
+				for(int j = 0; j < matriz.getFila(); j++) {
+					Complejo complejo = new Complejo(0,0);
+					complejo = MathComplejo.producto(matriz.getMatriz()[i][j], vector.getMatriz()[j][i]);
+					accion.getMatriz()[i][j] = complejo;
+					//System.out.println(vector.getVector());
+				}
+			}
+		}
+		return accion;
+		
+	}
+	
 }

@@ -252,6 +252,30 @@ public class TestMatrizComplejo {
 		tensor.addMatriz(new Complejo(9,0), 1, 2);
 		tensor.addMatriz(new Complejo(6,0), 0, 3);
 		tensor.addMatriz(new Complejo(12,0), 1, 3);
+		
 		tensor.equals(MathMatrizComplejo.productoTensor(matriz1, matriz2));
 	}
+	
+	@Test
+	public void accionMatriz() {
+		MatrizComplejo matriz = new MatrizComplejo(2,3);
+		matriz.addMatriz(new Complejo(-3,0), 0, 0);
+		matriz.addMatriz(new Complejo(5,0), 0, 1);
+		matriz.addMatriz(new Complejo(-6,0), 0, 2);
+		matriz.addMatriz(new Complejo(7,0), 1, 0);
+		matriz.addMatriz(new Complejo(10,0), 1, 1);
+		matriz.addMatriz(new Complejo(-1,0), 1, 2);
+		
+		MatrizComplejo vector = new MatrizComplejo(3,1);
+		vector.addMatriz(new Complejo(-6,0), 0, 0);
+		vector.addMatriz(new Complejo(-2,0), 1, 0);
+		vector.addMatriz(new Complejo(5,0), 2, 0);
+		
+		MatrizComplejo accion = new MatrizComplejo(2,1);
+		accion.addMatriz(new Complejo(-22,0), 0, 0);
+		accion.addMatriz(new Complejo(-67,0), 1, 0);
+		
+		accion.equals(MathMatrizComplejo.accionMatriz(matriz, vector));
+	}
+	
 }
