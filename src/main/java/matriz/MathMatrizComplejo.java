@@ -5,41 +5,27 @@ import main.java.complejos.MathComplejo;
 
 public class MathMatrizComplejo {
 	
-	//private MathComplejo operaciones = new MathComplejo();
 	
 	/**
 	 * 
 	 */
 	public static MatrizComplejo sumaVector(MatrizComplejo vector1, MatrizComplejo vector2) {
-		
-		if(vector1.getValor() == vector2.getValor()) {
-			MatrizComplejo suma = new MatrizComplejo(vector1.getValor());
-			for (int i=0; i < vector1.getValor(); i++) {
+		MatrizComplejo suma = new MatrizComplejo(vector1.getFila(), vector1.getColumna());
+			for (int i=0; i < vector1.getFila(); i++) {
 				suma.getVector()[i] = MathComplejo.suma(vector1.getVector()[i], vector2.getVector()[i]);
 			}
 			return suma;
-			
-		}else {
-			return null;
-		}
 	}
 	
 	/**
 	 * 
 	 */
-	public static Complejo[] restaVector(MatrizComplejo vector1, MatrizComplejo vector2) {
-		
-		if(vector1.getValor() == vector2.getValor()) {
-			Complejo[] resta = new Complejo[vector1.getValor()];
-			for (int i=0; i<vector1.getValor(); i++) {
-				Complejo valor = MathComplejo.resta(vector1.getVector()[i], vector2.getVector()[i]);
-				resta[i] = valor;
+	public static MatrizComplejo restaVector(MatrizComplejo vector1, MatrizComplejo vector2) {
+		MatrizComplejo suma = new MatrizComplejo(vector1.getFila(), vector1.getColumna());
+			for (int i=0; i < vector1.getFila(); i++) {
+				suma.getVector()[i] = MathComplejo.resta(vector1.getVector()[i], vector2.getVector()[i]);
 			}
-			return resta;
-			
-		}else {
-			return null;
-		}
+			return suma;
 	}
 	
 	/**
@@ -222,12 +208,12 @@ public class MathMatrizComplejo {
 	public static Boolean matrizHermitiana(MatrizComplejo matriz) {
 		
 		Boolean bool = false;
-		MatrizComplejo res = matrizAdjunta(matriz);
-		if(res == (matriz)) {
+		if(matrizAdjunta(matriz).equals(matriz)) {
 			bool = true;
 			return bool;
 		}else {
-			return false;
+			bool = false;
+			return bool;
 		}
 		
 	}
@@ -236,17 +222,16 @@ public class MathMatrizComplejo {
 	 * 
 	 */
 	public static MatrizComplejo productoTensor(MatrizComplejo matriz1, MatrizComplejo matriz2) {
-		MatrizComplejo prodTensor= new MatrizComplejo(matriz1.getColumna()*matriz2.getColumna(),matriz1.getFila()*matriz2.getFila());
-		for(int i = 0; i<matriz1.getFila(); i++) {
-			for(int j = 0; j<matriz1.getColumna(); j++) {
+		MatrizComplejo prodTensor= new MatrizComplejo(matriz1.getFila()*matriz2.getFila(), matriz1.getColumna()*matriz2.getColumna());
+		for(int i = 0; i < matriz1.getFila(); i++) {
+			for(int j = 0; j < matriz1.getColumna(); j++) {
 				for(int k = 0; k < matriz2.getFila(); k++) {
 					for(int l = 0; l < matriz2.getColumna(); l++) {
-						prodTensor.getMatriz()[i*matriz2.getColumna()+k][j*matriz2.getFila()+l] = MathComplejo.producto(matriz1.getMatriz()[i][j],matriz2.getMatriz()[k][l]);
+						prodTensor.getMatriz()[i*matriz2.getFila()+k][j*matriz2.getFila()+l] = MathComplejo.producto(matriz1.getMatriz()[i][j],matriz2.getMatriz()[k][l]);
 					}
 				}
 			}
 		}
 		return prodTensor;
 	}
-	
 }

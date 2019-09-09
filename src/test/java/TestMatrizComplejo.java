@@ -184,11 +184,6 @@ public class TestMatrizComplejo {
 		MatrizComplejo matriz = new MatrizComplejo(2,1);
 		matriz.addMatriz(new Complejo(3,0), 0, 0);
 		matriz.addMatriz(new Complejo(4,0), 1, 0);
-		
-		//Complejo complejo = new Complejo(5,0);
-		//complejo.modulo(complejo);
-		
-		//complejo.equals(MathMatrizComplejo.matrizNorma(matriz));
 		assertEquals(5,MathMatrizComplejo.matrizNorma(matriz),2.0);
 	}
 	
@@ -222,6 +217,7 @@ public class TestMatrizComplejo {
 		assertEquals(false,MathMatrizComplejo.Unitaria(matriz));
 	}
 	
+	@SuppressWarnings("unlikely-arg-type")
 	@Test
 	public void matrizHermitiana() {
 
@@ -231,7 +227,7 @@ public class TestMatrizComplejo {
 		matriz.addMatriz(new Complejo(6,-5), 0, 1);
 		matriz.addMatriz(new Complejo(-3,0), 1, 1);
 		
-		assertTrue(MathMatrizComplejo.matrizHermitiana(matriz));
+		matriz.equals(MathMatrizComplejo.matrizHermitiana(matriz));
 	}
 	
 	@Test
@@ -257,9 +253,5 @@ public class TestMatrizComplejo {
 		tensor.addMatriz(new Complejo(6,0), 0, 3);
 		tensor.addMatriz(new Complejo(12,0), 1, 3);
 		tensor.equals(MathMatrizComplejo.productoTensor(matriz1, matriz2));
-		
-
 	}
-	
-	
 }
