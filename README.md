@@ -119,15 +119,15 @@ Se multiplican dos matrices de numeros Complejos se utilizan las operaciones bas
 
 # Matriz transpuesta
 
-Para esta se comparan las pocisiones de los indices de la matriz original con los de la transpuesta en este caso se cambian las pocisiones se la matriz 
+Para esta se comparan las pocisiones de los indices de la matriz original con los de la transpuesta en este caso se cambian las pocisiones se la matriz original
 
 # Matriz conjugada
 
-Se cambia el signo de la parte imaginaria de cada indice imaginario de la matriz se utiliza el conjugado de complejos
+Se cambia el signo de la parte imaginaria de cada indice imaginario de la matriz se utiliza el conjugado de complejos y luego se guarda en la matriz original
 
 # Matriz adjunta
 
-Para esta utilizo el conjugado de la matriz y la transpuesta de este para hhalar la adjunta de una matriz
+Para esta utilizo el conjugado de la matriz y la transpuesta de este para hallar la adjunta de una matriz, se comparan una matriz con su adjunta
 
 # Norma de matrices
 
@@ -139,13 +139,12 @@ Se encuentra la di
 
 # Revisar si es unitaria
 
-
+Se analiza si la matriz es unitaria comparando los valores de las matrices con las operaciones entre estas necesarias para hallarla 
 
 # Revisar si es Hermitian
 
-
+Para este caso se mira si la matriz dada es Hermitiana y se devuelve con un Booleano
 
 # Producto tensor.
 
-
-
+Se realiza la operacion de producto tensor entre dos matrices
