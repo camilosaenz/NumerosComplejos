@@ -149,5 +149,5 @@ Para este caso se mira si la matriz dada es Hermitiana y se devuelve con un Bool
 
 Se realiza la operacion de producto tensor entre dos matrices
 
-# Autor
+_Autor_
 > Rubian Camilo Saenz Rodriguez
