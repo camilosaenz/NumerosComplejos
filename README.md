@@ -54,6 +54,9 @@ La librería tiene las siguientes operaciones entre números complejos:
 
 La suma de los complejos, es un número complejo cuya parte real es la suma de las partes reales y cuya parte imaginaria es la suma de las partes imaginarias:
 En la libreria yo sumo tanto las partes enteras como las partes imaginarias aparte y creo el número complejo a partir de los resultados obtenidos.
+> Ejemplo
+Para esta prueba, se colocan dos vectores de igual dimension y se suman
+![image](https://user-images.githubusercontent.com/48153830/64641338-94d31d80-d3d1-11e9-8508-685972318691.png)
 
 # 2. Resta:
 
@@ -64,6 +67,8 @@ En la libreria yo resto tanto las partes enteras como las partes imaginarias apa
   
   El producto de numeros complejos da como resultado otro numeros complejo y se encarga de distribuir la primer parte del primer numero   complejo sobre el otro numero complejo, como se puede ver en la suguiente ecuacion.
   Para el producto de numeros complejos en la libreria sigo la ecuacion para hallar esta y con el resultado creo el numero complejo
+  
+  ![image](https://user-images.githubusercontent.com/48153830/64641384-b2a08280-d3d1-11e9-8c58-5653976cd4ee.png)
             
 # 4. División:
 
@@ -72,6 +77,7 @@ En la libreria yo resto tanto las partes enteras como las partes imaginarias apa
 # 5. Módulo:
 
    El modulo de un numero Complejo es un real tal que sale de realizar la raiz cuadrada de la suma de los cuadrados tanto de la parte      entera como de la parte imaginaria.
+   ![image](https://user-images.githubusercontent.com/48153830/64641440-ce0b8d80-d3d1-11e9-9a65-024b78372965.png)
 
 # 6. Conjugado:
 
@@ -96,6 +102,7 @@ La librería tiene las siguientes operaciones entre números complejos:
 # Adición de vectores complejos.
 
 Se suman dos vectores de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+![sumaVector](https://user-images.githubusercontent.com/48153830/64641101-10809a80-d3d1-11e9-9923-854d0325ebd4.PNG)
 
 # Inversa de vectores complejos.
 
@@ -113,9 +120,10 @@ Se suman dos matrices de numeros Complejos se utilizan las operaciones basicas e
 
 Se restan dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso la resta de complejos para hacer la operacion
 
-# Multiplicación escalar de matrices complejas.
+# Multiplicación de matrices complejas.
 
 Se multiplican dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso el producto de complejos para hacer la operacion
+![productoMatriz](https://user-images.githubusercontent.com/48153830/64641154-2f7f2c80-d3d1-11e9-90c3-4c8160d8906b.PNG)
 
 # Matriz transpuesta
 
@@ -124,6 +132,8 @@ Para esta se comparan las pocisiones de los indices de la matriz original con lo
 # Matriz conjugada
 
 Se cambia el signo de la parte imaginaria de cada indice imaginario de la matriz se utiliza el conjugado de complejos y luego se guarda en la matriz original
+
+![conjugada](https://user-images.githubusercontent.com/48153830/64641211-4f165500-d3d1-11e9-9730-e4063f4be779.PNG)
 
 # Matriz adjunta
 
