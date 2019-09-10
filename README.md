@@ -12,7 +12,11 @@ El objetivo de este proyecto es realizar una libreria de Números Complejos.
 Para instalar la librería en sus Computadores siga estos pasos:
 ```
 
-> Clonar en sus computadores con el link del repositorio, utilizando el codigo: git clone (link repositorio). Una vez clonado ya se puede utilizar.
+> Clonar en sus computadores con el link del repositorio, utilizando el codigo: git clone (link repositorio).
+
+![clone](https://user-images.githubusercontent.com/48153830/64622164-7eff3180-d3ac-11e9-8887-a47bee03693e.PNG)
+
+Ya con el repositorio clonado en sus computadores, podremos trabajar en el por medio de diferentes compiladores.
 
 # ¿Uso de la Librería? :hand:
 
@@ -20,7 +24,17 @@ Para instalar la librería en sus Computadores siga estos pasos:
 
 # ¿Probar la Librería? :wrench:
 
-> Ya abierto en algun compilador hacer uso de los metodos creados para pruebas, en los paquetes se encontraran los Test para numeros Complejos con operaciones basicas y al igual para operaciones con matrices y vectores. 
+> Ya abierto en algun compilador hacer uso de los metodos creados para pruebas, en los paquetes se encontraran los Test para numeros Complejos con operaciones basicas y al igual para operaciones con matrices y vectores.
+
+Se puede probar por medio de Maven, utilizando el siguiente comando mvn test
+
+![mvnTest](https://user-images.githubusercontent.com/48153830/64622976-cd610000-d3ad-11e9-94a4-8aca5a8d4ac9.PNG)
+
+Luego de esto se compilan las pruebas:
+
+![test](https://user-images.githubusercontent.com/48153830/64623424-8de6e380-d3ae-11e9-890b-8c9b0f9fe0ca.PNG)
+
+_Libreria Numeros Complejos_
 
 _Para esto primero definimos que es un Número Complejo._
 
@@ -97,15 +111,15 @@ Se suman dos matrices de numeros Complejos se utilizan las operaciones basicas e
 
 # Inversa de matrices complejos.
 
-Se restan dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+Se restan dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso la resta de complejos para hacer la operacion
 
 # Multiplicación escalar de matrices complejas.
 
-Se multiplican dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+Se multiplican dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso el producto de complejos para hacer la operacion
 
 # Matriz transpuesta
 
-Para esta se comparan las pocisiones de los indices de la matriz original con los de la transpuesta 
+Para esta se comparan las pocisiones de los indices de la matriz original con los de la transpuesta en este caso se cambian las pocisiones se la matriz 
 
 # Matriz conjugada
 
