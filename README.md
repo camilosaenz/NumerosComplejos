@@ -6,7 +6,7 @@ _Librería computación Cuántica: Números complejos._
 
 El objetivo de este proyecto es realizar una libreria de Números Complejos.
 
-# ¿Instalación de la Librería? :file_folder:
+# ¿Instalación de la Librería? 📂
 
 ```
 Para instalar la librería en sus Computadores siga estos pasos:
