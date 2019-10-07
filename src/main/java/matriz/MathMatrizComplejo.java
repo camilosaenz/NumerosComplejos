@@ -221,7 +221,7 @@ public class MathMatrizComplejo {
 	 * 
 	 */
 	public static MatrizComplejo productoTensor(MatrizComplejo matriz1, MatrizComplejo matriz2) {
-		MatrizComplejo tensor= new MatrizComplejo(matriz1.getFila()*matriz2.getFila(), matriz1.getColumna()*matriz2.getColumna());
+		MatrizComplejo tensor = new MatrizComplejo(matriz1.getFila()*matriz2.getFila(), matriz1.getColumna()*matriz2.getColumna());
 		for(int i = 0; i < matriz1.getFila(); i++) {
 			for(int j = 0; j < matriz1.getColumna(); j++) {
 				for(int k = 0; k < matriz2.getFila(); k++) {
@@ -245,12 +245,20 @@ public class MathMatrizComplejo {
 					Complejo complejo = new Complejo(0,0);
 					complejo = MathComplejo.producto(matriz.getMatriz()[i][j], vector.getMatriz()[j][i]);
 					accion.getMatriz()[i][j] = complejo;
-					//System.out.println(vector.getVector());
 				}
 			}
 		}
 		return accion;
-		
+	}
+	
+	public static Complejo productoInterno(MatrizComplejo matriz1, MatrizComplejo matriz2) {
+		Complejo valor = new Complejo(0,0);
+		for(int fila = 0; fila < matriz1.getFila(); fila++) {
+			for(int columna = 0; columna < matriz1.getColumna(); columna++) {
+				valor = MathComplejo.suma(valor, MathComplejo.producto(matriz1.getMatriz()[fila][columna], matriz2.getMatriz()[fila][columna]));
+			}
+		}
+		return valor;
 	}
 	
 }

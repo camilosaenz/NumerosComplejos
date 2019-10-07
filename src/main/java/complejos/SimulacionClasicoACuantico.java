@@ -6,6 +6,13 @@ import main.java.matriz.MatrizComplejo;
 
 public class SimulacionClasicoACuantico {
 	
+	/**
+	 * 
+	 * @param matriz1
+	 * @param matriz2
+	 * @param clicks
+	 * @return
+	 */
 	public MatrizComplejo ejercicio311(MatrizComplejo matriz1, MatrizComplejo matriz2, int clicks) {
 		MatrizComplejo matriz3 = null;
 		MatrizComplejo valor = matriz1;
@@ -17,6 +24,12 @@ public class SimulacionClasicoACuantico {
 		return matriz3;
 	}
 	
+	/**
+	 * 
+	 * @param valor
+	 * @param change
+	 * @return
+	 */
 	public MatrizComplejo ejercicio321(int valor, int change) {
 		
 		int resultado = 1 + valor + change;
@@ -54,6 +67,51 @@ public class SimulacionClasicoACuantico {
 			}
 		}
 		return matriz;
+	}
+	
+	/**
+	 * 
+	 * @param valor
+	 * @param matriz
+	 * @return
+	 */
+	public double particulaPorPosicion(int valor, MatrizComplejo matriz) {
+		double probabilidad = Math.pow(matriz.getMatriz()[valor][0].modulo(matriz.getMatriz()[valor] [0]), 2);
+		return probabilidad;
+	}
+	
+	/**
+	 * 
+	 * @param matriz1
+	 * @param matriz2
+	 * @return
+	 */
+	public Complejo probabilidadKet(MatrizComplejo matriz1, MatrizComplejo matriz2) {
+		
+		Complejo valor = new Complejo(0,0);
+		valor = MathMatrizComplejo.productoInterno(matriz1, matriz2);
+		return valor;
+	}
+	
+	/**
+	 * 
+	 * @param matriz
+	 * @return
+	 */
+	public MatrizComplejo bra(MatrizComplejo matriz) {
+		MatrizComplejo valor = new MatrizComplejo(matriz.getFila(), matriz.getColumna());
+		valor = MathMatrizComplejo.matrizAdjunta(matriz);
+		return valor;
+	}
+	
+	public Complejo valorMedio(MatrizComplejo matriz1, MatrizComplejo matriz2) {
+		if(MathMatrizComplejo.matrizHermitiana(matriz1).equals(false)) {
+			return null;
+		}
+		MathMatrizComplejo.matrizAdjunta(matriz1);
+		MatrizComplejo matriz = MathMatrizComplejo.productoMatrices(matriz1, matriz2);
+		this.bra(matriz);
+		return MathMatrizComplejo.productoInterno(matriz, matriz2);
 	}
 	
 }
