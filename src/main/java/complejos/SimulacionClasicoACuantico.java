@@ -1,5 +1,7 @@
 package main.java.complejos;
 
+import java.util.ArrayList;
+
 import main.java.matriz.MathMatrizComplejo;
 import main.java.matriz.MatrizComplejo;
 
@@ -104,14 +106,78 @@ public class SimulacionClasicoACuantico {
 		return valor;
 	}
 	
+	/**
+	 * 
+	 * @param matriz1
+	 * @param matriz2
+	 * @return
+	 */
 	public Complejo valorMedio(MatrizComplejo matriz1, MatrizComplejo matriz2) {
 		if(MathMatrizComplejo.matrizHermitiana(matriz1).equals(false)) {
+			System.out.println("ENTRO IF");
 			return null;
 		}
 		MathMatrizComplejo.matrizAdjunta(matriz1);
 		MatrizComplejo matriz = MathMatrizComplejo.productoMatrices(matriz1, matriz2);
-		this.bra(matriz);
+		System.out.println("NO ENTRO");
+		matriz = this.bra(matriz);
 		return MathMatrizComplejo.productoInterno(matriz, matriz2);
+	}
+	
+	/**
+	 * 
+	 * @param matriz1
+	 * @param matriz2
+	 * @return
+	 */
+	public Complejo varianza(MatrizComplejo matriz1, MatrizComplejo matriz2) {
+		
+		if(MathMatrizComplejo.matrizHermitiana(matriz1).equals(false)) {
+			
+		}
+		MathMatrizComplejo.matrizAdjunta(matriz1);
+		MatrizComplejo matriz3 = this.unitaria(this.valorMedio(matriz1, matriz2),matriz1.getFila(), matriz2.getColumna());
+		MatrizComplejo matriz4 = MathMatrizComplejo.restaMatriz(matriz1, matriz3);
+		MatrizComplejo matriz5 = MathMatrizComplejo.productoMatrices(matriz4, matriz4);
+		MatrizComplejo matriz6 = MathMatrizComplejo.productoMatrices(MathMatrizComplejo.matrizAdjunta(matriz2), matriz5);
+		Complejo varianza = MathMatrizComplejo.productoInterno(matriz6, MathMatrizComplejo.matrizAdjunta(matriz2));
+		return varianza;
+	}
+	
+	/**
+	 * 
+	 * @param complejo
+	 * @param valor
+	 * @param numero
+	 * @return
+	 */
+	public MatrizComplejo unitaria(Complejo complejo, int valor, int numero) {
+		MatrizComplejo matriz = new MatrizComplejo(valor, numero);
+		for(int fila = 0; fila < matriz.getFila(); fila++) {
+			for(int columna = 0; columna < matriz.getColumna(); columna++) {
+				if(fila == columna) {
+					matriz.getMatriz()[fila][columna] = complejo;
+				}else {
+					matriz.getMatriz()[fila][columna] = new Complejo(0,0);
+				}
+			}
+		}
+		return matriz;
+	}
+	
+	/**
+	 * 
+	 * @param valor
+	 * @param matriz
+	 * @param arrayMatriz
+	 * @return
+	 */
+	public MatrizComplejo dinamica(int valor, MatrizComplejo matriz, ArrayList<MatrizComplejo> arrayMatriz) {
+		MatrizComplejo matriz2 = matriz;
+		for(int i = 0; i < valor; i++) {
+			matriz2 = MathMatrizComplejo.productoMatrices(arrayMatriz.get(i), matriz2);
+		}
+		return matriz2;
 	}
 	
 }
