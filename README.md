@@ -159,5 +159,18 @@ Para este caso se mira si la matriz dada es Hermitiana y se devuelve con un Bool
 
 Se realiza la operacion de producto tensor entre dos matrices
 
+# Segundo Tercio.
+
+# Clasico a lo Cuantico
+
+Para este segundo tercio el Objetivo del proyecto es poder realizar el programa de lo Clasico a lo Cuantico, donde se evaluaran los siguientes aspectos
+
+# Canicas con Coeficientes Booleanos
+# Rendijas Probabilisticas
+# Doble Rendijas
+# Probabilidad por Posicion
+# De Ket a Ket
+# Valor Medio
+
 _Autor_
 > Rubian Camilo Saenz Rodriguez
