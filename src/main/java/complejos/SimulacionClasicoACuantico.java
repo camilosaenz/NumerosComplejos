@@ -113,13 +113,8 @@ public class SimulacionClasicoACuantico {
 	 * @return
 	 */
 	public Complejo valorMedio(MatrizComplejo matriz1, MatrizComplejo matriz2) {
-		if(MathMatrizComplejo.matrizHermitiana(matriz1).equals(false)) {
-			System.out.println("ENTRO IF");
-			return null;
-		}
 		MathMatrizComplejo.matrizAdjunta(matriz1);
 		MatrizComplejo matriz = MathMatrizComplejo.productoMatrices(matriz1, matriz2);
-		System.out.println("NO ENTRO");
 		matriz = this.bra(matriz);
 		return MathMatrizComplejo.productoInterno(matriz, matriz2);
 	}
@@ -131,10 +126,6 @@ public class SimulacionClasicoACuantico {
 	 * @return
 	 */
 	public Complejo varianza(MatrizComplejo matriz1, MatrizComplejo matriz2) {
-		
-		if(MathMatrizComplejo.matrizHermitiana(matriz1).equals(false)) {
-			
-		}
 		MathMatrizComplejo.matrizAdjunta(matriz1);
 		MatrizComplejo matriz3 = this.unitaria(this.valorMedio(matriz1, matriz2),matriz1.getFila(), matriz2.getColumna());
 		MatrizComplejo matriz4 = MathMatrizComplejo.restaMatriz(matriz1, matriz3);

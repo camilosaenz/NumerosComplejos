@@ -11,7 +11,9 @@ import org.junit.Test;
 public class TestSimulacion {
 	
 	@Test
+	// Ejercicio 311
 	public void ejercicio311() {
+		System.out.println("Ejercicio 311");
 		SimulacionClasicoACuantico s = new SimulacionClasicoACuantico();
 		MatrizComplejo m1 = new MatrizComplejo(6,6);
 		m1.addMatriz(new Complejo(0,0), 0, 0);
@@ -97,7 +99,9 @@ public class TestSimulacion {
 	}
 	
 	@Test
+	// Ejercicio 321
 	public void ejercicio321() {
+		System.out.println("Ejercicio 321");
 		SimulacionClasicoACuantico s = new SimulacionClasicoACuantico();
 		MatrizComplejo m1 = new MatrizComplejo(4,4);
 		
@@ -148,7 +152,9 @@ public class TestSimulacion {
 	}
 	
 	@Test
+	// Ejercicio 322
 	public void ejercicio322() {
+		System.out.println("Ejercicio 322");
 		int r=2;
 		int b=5;
 		
@@ -167,7 +173,9 @@ public class TestSimulacion {
 	}
 	
 	@Test
+	// Probabilidad Particula
 	public void probabilidadParticulaPorPosicion() {
+		System.out.println("Probabilidad Particula");
 		SimulacionClasicoACuantico s = new SimulacionClasicoACuantico();
 		MatrizComplejo m = new MatrizComplejo(4,1);
 		m.addMatriz(new Complejo(-3,-1), 0, 0);
@@ -186,8 +194,10 @@ public class TestSimulacion {
 		
 	}
 	
-	@Test 
+	@Test
+	// ket a ket
 	public void probabilidadTransitarKetAKet() {
+		System.out.println("ket a ket");
 		SimulacionClasicoACuantico s = new SimulacionClasicoACuantico();
 		MatrizComplejo m = new MatrizComplejo(2,1);
 		m.addMatriz(new Complejo(Math.sqrt(2)/2,0),0 ,0);
@@ -202,7 +212,9 @@ public class TestSimulacion {
 	}
 	
 	@Test
+	// Valor Medio
 	public void calculandoValorMedio() {
+		System.out.println("Valor Medio");
 		SimulacionClasicoACuantico s = new SimulacionClasicoACuantico();
 		
 		MatrizComplejo m = new MatrizComplejo(2,1);
@@ -222,7 +234,9 @@ public class TestSimulacion {
 	}
 	
 	@Test
+	// Varianza
 	public void calculandoVarianza() {
+		System.out.println("Varianza");
 		SimulacionClasicoACuantico s = new SimulacionClasicoACuantico();
 		
 		MatrizComplejo m = new MatrizComplejo(2,1);
@@ -242,7 +256,9 @@ public class TestSimulacion {
 	}	
 	
 	@Test
+	// Dinamica
 	public void calculaDinamicaSistema() {
+		System.out.println("Dinamica");
 		SimulacionClasicoACuantico s = new SimulacionClasicoACuantico();
 		MathMatrizComplejo m = new MathMatrizComplejo();
 		
