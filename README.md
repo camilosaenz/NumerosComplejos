@@ -165,9 +165,36 @@ Se realiza la operacion de producto tensor entre dos matrices
 
 Para este segundo tercio el Objetivo del proyecto es poder realizar el programa de lo Clasico a lo Cuantico, donde se evaluaran los siguientes aspectos
 
-# Canicas con Coeficientes Booleanos
+# Canicas con Coeficientes Booleanos :mag_right:
+
+Este ejercicio muestra lo siguiente, primero se ingresa una matriz de Booleanos e ingresar el numero de clicks luego se mostrara cual es el estado del sistema despues de n clicks.
+
+``` 
+Prueba 
+```
+
+![image](https://user-images.githubusercontent.com/48153830/67412063-35495f80-f584-11e9-8d52-3c24087fd0d2.png)
+
 # Rendijas Probabilisticas
+
+En este caso se ingresan dos enteros y se recorrera la matriz.
+
+```
+Prueba
+```
+
+![image](https://user-images.githubusercontent.com/48153830/67412722-6d04d700-f585-11e9-995d-d4a430c7dd56.png)
+
 # Doble Rendijas
+
+Para este caso se calcula la matriz resultante del experimento de multiples rendijas. Para este caso se ingresa el numero de rendijas, y de blancos mas las probabilidades para los blancos.
+
+```
+Prueba
+```
+
+![image](https://user-images.githubusercontent.com/48153830/67412918-cf5dd780-f585-11e9-99e3-2d7a65df53ad.png)
+
 # Probabilidad por Posicion
 # De Ket a Ket
 # Valor Medio
