@@ -196,7 +196,26 @@ Prueba
 ![image](https://user-images.githubusercontent.com/48153830/67412918-cf5dd780-f585-11e9-99e3-2d7a65df53ad.png)
 
 # Probabilidad por Posicion
+
+En este caso se debe encontrar la probabilidad de posicion de la particula 
+
+``` 
+Prueba 
+```
+
+![image](https://user-images.githubusercontent.com/48153830/67582301-2511bb80-f70f-11e9-8979-68119db69cbb.png)
+
 # De Ket a Ket
+
+En este busca transitar de un vector a otro los cuales seran Ket
+
+``` 
+Prueba 
+```
+
+![image](https://user-images.githubusercontent.com/48153830/67582486-7a4dcd00-f70f-11e9-9c93-d9f389729e30.png)
+
+
 # Valor Medio
 
 _Autor_
