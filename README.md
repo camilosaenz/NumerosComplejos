@@ -56,12 +56,15 @@ La suma de los complejos, es un número complejo cuya parte real es la suma de l
 En la libreria yo sumo tanto las partes enteras como las partes imaginarias aparte y creo el número complejo a partir de los resultados obtenidos.
 > Ejemplo
 Para esta prueba, se colocan dos vectores de igual dimension y se suman
-![image](https://user-images.githubusercontent.com/48153830/64641338-94d31d80-d3d1-11e9-8508-685972318691.png)
+
+   ![image](https://user-images.githubusercontent.com/48153830/64641338-94d31d80-d3d1-11e9-8508-685972318691.png)
 
 # 2. Resta:
 
 La resta de los complejos, es un número complejo cuya parte real es la resta de las partes reales y cuya parte imaginaria es la resta de las partes imaginarias:
 En la libreria yo resto tanto las partes enteras como las partes imaginarias aparte y creo el número complejo a partir de los resultados obtenidos.
+   
+   ![image](https://user-images.githubusercontent.com/48153830/67582945-47580900-f710-11e9-952d-14f0ab21b55a.png)
    
 # 3. Producto:
   
@@ -74,14 +77,19 @@ En la libreria yo resto tanto las partes enteras como las partes imaginarias apa
 
   La division de los numeros complejos, es un numero complejo tal que al dividir el primero en el segundo esto siempre y cuando el         modulo del segundo numero complejo sea diferente de cero.
 
+   ![image](https://user-images.githubusercontent.com/48153830/67583056-72425d00-f710-11e9-9bb2-e6f4e76a4c6e.png)
+
 # 5. Módulo:
 
    El modulo de un numero Complejo es un real tal que sale de realizar la raiz cuadrada de la suma de los cuadrados tanto de la parte      entera como de la parte imaginaria.
+   
    ![image](https://user-images.githubusercontent.com/48153830/64641440-ce0b8d80-d3d1-11e9-9a65-024b78372965.png)
 
 # 6. Conjugado:
 
 El conjugado de un numero Complejo sale es otro numero complejo pero con la parte imaginaria de un signo diferente a el primer numero complejo.
+
+   ![image](https://user-images.githubusercontent.com/48153830/67583118-90a85880-f710-11e9-869b-67e9f8da8fce.png)
   
 # 7. Conversión entre representaciones polar y cartesiano
 
@@ -93,6 +101,8 @@ La forma polar de un complejo es cualquiera de las siguientes:
 
   La fase de un numero complejo es el arcotangente de la division entre la parte imaginaria sobre la parte entera, siempre y cuando la     parte entera sea diferente de cero.
   
+   ![image](https://user-images.githubusercontent.com/48153830/67583139-a027a180-f710-11e9-9dec-91c9c31fa7cb.png)
+  
 # Segunda Entrega
 
 > **Segunda Entrega** En esta entrega se tendran oparaciones de numeros complejos en vectores y matrices.
@@ -102,32 +112,44 @@ La librería tiene las siguientes operaciones entre números complejos:
 # Adición de vectores complejos.
 
 Se suman dos vectores de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+
 ![sumaVector](https://user-images.githubusercontent.com/48153830/64641101-10809a80-d3d1-11e9-9923-854d0325ebd4.PNG)
 
 # Inversa de vectores complejos.
 
 Se restan dos vectores de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
 
+   ![image](https://user-images.githubusercontent.com/48153830/67583256-da913e80-f710-11e9-8809-52ff59898380.png)
+
 # Multiplicación escalar de vectores complejos.
 
 Se multiplican dos vectores de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
+
+![image](https://user-images.githubusercontent.com/48153830/67583289-ebda4b00-f710-11e9-83e0-b044398504bc.png)
 
 # Adición de matrices complejos.
 
 Se suman dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso la suma de complejos para hacer la operacion
 
+![image](https://user-images.githubusercontent.com/48153830/67583321-f85ea380-f710-11e9-871b-d38eea472c46.png)
+
 # Inversa de matrices complejos.
 
 Se restan dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso la resta de complejos para hacer la operacion
 
+![image](https://user-images.githubusercontent.com/48153830/67583361-0ad8dd00-f711-11e9-9395-f3ac21222107.png)
+
 # Multiplicación de matrices complejas.
 
 Se multiplican dos matrices de numeros Complejos se utilizan las operaciones basicas en este caso el producto de complejos para hacer la operacion
+
 ![productoMatriz](https://user-images.githubusercontent.com/48153830/64641154-2f7f2c80-d3d1-11e9-90c3-4c8160d8906b.PNG)
 
 # Matriz transpuesta
 
 Para esta se comparan las pocisiones de los indices de la matriz original con los de la transpuesta en este caso se cambian las pocisiones se la matriz original
+
+![image](https://user-images.githubusercontent.com/48153830/67583389-1af0bc80-f711-11e9-838a-5e23ec72b548.png)
 
 # Matriz conjugada
 
@@ -139,25 +161,39 @@ Se cambia el signo de la parte imaginaria de cada indice imaginario de la matriz
 
 Para esta utilizo el conjugado de la matriz y la transpuesta de este para hallar la adjunta de una matriz, se comparan una matriz con su adjunta
 
+![image](https://user-images.githubusercontent.com/48153830/67583412-26dc7e80-f711-11e9-9599-fe8d4db3b1ed.png)
+
 # Norma de matrices
 
 Se halla la norma de cada elemento de la matriz de los numeros complejos
 
-# Distancia entrematrices
+![image](https://user-images.githubusercontent.com/48153830/67583454-3bb91200-f711-11e9-8f3c-dfe0bfd02657.png)
 
-Se encuentra la di
+# Distancia entre matrices
+
+Se encuentra la distancia entra matrices
+
+![image](https://user-images.githubusercontent.com/48153830/67583469-47a4d400-f711-11e9-9605-88934ef66a50.png)
+
 
 # Revisar si es unitaria
 
 Se analiza si la matriz es unitaria comparando los valores de las matrices con las operaciones entre estas necesarias para hallarla 
 
+![image](https://user-images.githubusercontent.com/48153830/67583492-52f7ff80-f711-11e9-8459-b6144113ff0f.png)
+
 # Revisar si es Hermitian
 
 Para este caso se mira si la matriz dada es Hermitiana y se devuelve con un Booleano
 
+![image](https://user-images.githubusercontent.com/48153830/67583508-5be8d100-f711-11e9-8c58-d94bb730f247.png)
+
 # Producto tensor.
 
 Se realiza la operacion de producto tensor entre dos matrices
+
+![image](https://user-images.githubusercontent.com/48153830/67583536-686d2980-f711-11e9-9dff-1d1014647614.png)
+
 
 # Segundo Tercio.
 
