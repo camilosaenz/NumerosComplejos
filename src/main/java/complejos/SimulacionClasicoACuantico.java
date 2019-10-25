@@ -28,6 +28,28 @@ public class SimulacionClasicoACuantico {
 	
 	/**
 	 * 
+	 * @param complejo
+	 * @param valor
+	 * @param numero
+	 * @return
+	 */
+	public MatrizComplejo unitaria(Complejo complejo, int valor, int numero) {
+		MatrizComplejo matriz = new MatrizComplejo(valor, numero);
+		for(int fila = 0; fila < matriz.getFila(); fila++) {
+			for(int columna = 0; columna < matriz.getColumna(); columna++) {
+				if(fila == columna) {
+					matriz.getMatriz()[fila][columna] = complejo;
+				}else {
+					matriz.getMatriz()[fila][columna] = new Complejo(0,0);
+				}
+			}
+		}
+		return matriz;
+	}
+	
+	
+	/**
+	 * 
 	 * @param valor
 	 * @param change
 	 * @return
@@ -69,6 +91,21 @@ public class SimulacionClasicoACuantico {
 			}
 		}
 		return matriz;
+	}
+	
+	/**
+	 * 
+	 * @param valor
+	 * @param matriz
+	 * @param arrayMatriz
+	 * @return
+	 */
+	public MatrizComplejo dinamica(int valor, MatrizComplejo matriz, ArrayList<MatrizComplejo> arrayMatriz) {
+		MatrizComplejo matriz2 = matriz;
+		for(int i = 0; i < valor; i++) {
+			matriz2 = MathMatrizComplejo.productoMatrices(arrayMatriz.get(i), matriz2);
+		}
+		return matriz2;
 	}
 	
 	/**
@@ -135,40 +172,6 @@ public class SimulacionClasicoACuantico {
 		return varianza;
 	}
 	
-	/**
-	 * 
-	 * @param complejo
-	 * @param valor
-	 * @param numero
-	 * @return
-	 */
-	public MatrizComplejo unitaria(Complejo complejo, int valor, int numero) {
-		MatrizComplejo matriz = new MatrizComplejo(valor, numero);
-		for(int fila = 0; fila < matriz.getFila(); fila++) {
-			for(int columna = 0; columna < matriz.getColumna(); columna++) {
-				if(fila == columna) {
-					matriz.getMatriz()[fila][columna] = complejo;
-				}else {
-					matriz.getMatriz()[fila][columna] = new Complejo(0,0);
-				}
-			}
-		}
-		return matriz;
-	}
 	
-	/**
-	 * 
-	 * @param valor
-	 * @param matriz
-	 * @param arrayMatriz
-	 * @return
-	 */
-	public MatrizComplejo dinamica(int valor, MatrizComplejo matriz, ArrayList<MatrizComplejo> arrayMatriz) {
-		MatrizComplejo matriz2 = matriz;
-		for(int i = 0; i < valor; i++) {
-			matriz2 = MathMatrizComplejo.productoMatrices(arrayMatriz.get(i), matriz2);
-		}
-		return matriz2;
-	}
 	
 }
