@@ -218,5 +218,14 @@ Prueba
 
 # Valor Medio
 
+Ahora con una matriz que describa un observable y un vector ket, el sistema revisa que la matriz sea hermitiana, y si lo es, calcula la media y la varianza del observable en el estado dado.
+
+``` 
+Prueba 
+```
+
+![image](https://user-images.githubusercontent.com/48153830/67582696-d44e9280-f70f-11e9-8673-a8737aeb9f90.png)
+
+
 _Autor_
 > Rubian Camilo Saenz Rodriguez
